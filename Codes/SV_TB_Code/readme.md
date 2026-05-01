@@ -28,3 +28,9 @@ endmodule
 ### 1. Interface
 - Connects DUT and Testbench 
 - Avoids messy wiring 
+```systemverilog
+interface adder_if;
+  logic [3:0] a, b;
+  logic [4:0] sum;
+endinterface
+```
