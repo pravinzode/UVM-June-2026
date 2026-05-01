@@ -94,7 +94,7 @@ class monitor;
   endfunction
 endclass
 ```
-### 6. Scoreboard (checks correctness)
+### 6. Scoreboard (checks correctness of output )
 ```systemverilog
 class scoreboard;
 
@@ -107,7 +107,7 @@ class scoreboard;
 
 endclass
 ```
-### 7. Top Testbench
+### 7. Top Testbench (Connects all components)
 ```systemverilog
 module tb;
 
