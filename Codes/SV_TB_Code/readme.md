@@ -43,4 +43,38 @@ class transaction;
   bit [4:0] sum;
 endclass
 ```
+- 👉 Instead of individual signals, we use one object
+  
+### 3. Generator (creates inputs)
+```systemverilog
+class generator;
+  transaction tr;
+
+  function transaction generate();
+    tr = new();
+    tr.randomize();   // automatic test generation
+    return tr;
+  endfunction
+endclass
+```
+-👉 No need to manually write test cases
+
+### 
+```systemverilog
+
+```
+### 
+```systemverilog
+
+```
+### 
+```systemverilog
+
+```
+### 
+```systemverilog
+
+```
+
+
 ---
