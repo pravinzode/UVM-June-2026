@@ -34,11 +34,10 @@ interface adder_if;
   logic [4:0] sum;
 endinterface
 ```
----
 ### 2. Transaction (data packet)
 - Represents a single test case
 - Encapsulates input/output data
-  ```systemverilog
+ ```systemverilog
 class transaction;
   rand bit [3:0] a, b;
   bit [4:0] sum;
