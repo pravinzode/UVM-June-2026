@@ -26,5 +26,5 @@ endmodule
 ## 🏗️ Testbench Architecture
 - The testbench is divided into the following components:
 ### 1. Interface
--- Connects DUT and Testbench 
--- Avoids messy wiring 
+- Connects DUT and Testbench 
+- Avoids messy wiring 
