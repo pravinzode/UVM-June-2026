@@ -25,7 +25,7 @@ endmodule
 ---
 ## 🏗️ Testbench Architecture
 - The testbench is divided into the following components:
-### 1. Interface
+### 1. Interface 
 - Connects DUT and Testbench 
 - Avoids messy wiring 
 ```systemverilog
@@ -34,3 +34,14 @@ interface adder_if;
   logic [4:0] sum;
 endinterface
 ```
+---
+### 2. Transaction (data packet)
+- Represents a single test case
+- Encapsulates input/output data
+  ```systemverilog
+class transaction;
+  rand bit [3:0] a, b;
+  bit [4:0] sum;
+endclass
+```
+---
