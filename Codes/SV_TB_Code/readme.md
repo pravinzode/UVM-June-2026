@@ -34,6 +34,7 @@ interface adder_if;
   logic [4:0] sum;
 endinterface
 ```
+- 👉 Replaces messy wire connections
 ### 2. Transaction (data packet)
 - Represents a single test case
 - Encapsulates input/output data
