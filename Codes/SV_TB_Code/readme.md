@@ -112,9 +112,9 @@ endclass
 module tb;
 
   adder_if vif();
-
+//DUT Instance 
   adder dut(.a(vif.a), .b(vif.b), .sum(vif.sum));
-
+// components 
   generator gen;
   driver drv;
   monitor mon;
@@ -129,10 +129,10 @@ module tb;
     repeat (5) begin
       transaction tr;
 
-      tr = gen.generate();   // generate
-      drv.drive(tr);         // apply
-      tr = mon.collect();    // observe
-      sb.check(tr);          // verify
+      tr = gen.generate();   // generate stimulus 
+      drv.drive(tr);         // apply- drives to DUT
+      tr = mon.collect();    // observe- monitor output 
+      sb.check(tr);          // verify-  checks results
     end
 
     $finish;
@@ -141,3 +141,5 @@ module tb;
 endmodule
 ```
 ---
+
+
