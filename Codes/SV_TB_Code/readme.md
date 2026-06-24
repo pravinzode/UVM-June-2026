@@ -53,8 +53,9 @@ class generator;
 
   function transaction generate1();
     tr = new();
-    void tr.randomize();   // automatic test generation
-    return tr;
+    tr.randomize();   // automatic test generation, runs in EDAPlayground
+    // void '(tr.randomize());   // Questasim shows wanring, add this line to remove warning 
+return tr;
   endfunction
 endclass
 ```
