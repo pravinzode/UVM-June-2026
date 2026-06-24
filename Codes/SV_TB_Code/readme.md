@@ -51,9 +51,9 @@ endclass
 class generator;
   transaction tr;
 
-  function transaction generate();
+  function transaction generate1();
     tr = new();
-    tr.randomize();   // automatic test generation
+    void tr.randomize();   // automatic test generation
     return tr;
   endfunction
 endclass
@@ -129,7 +129,7 @@ module tb;
     repeat (5) begin
       transaction tr;
 
-      tr = gen.generate();   // generate stimulus 
+      tr = gen.generate1();   // generate stimulus 
       drv.drive(tr);         // apply- drives to DUT
       tr = mon.collect();    // observe- monitor output 
       sb.check(tr);          // verify-  checks results
