@@ -234,17 +234,6 @@ o.print(uvm_default_tree_printer);
 o.print(uvm_default_line_printer);
 ```
 
-### Questions
-
-1. Which output is easiest to read?
-2. Which output occupies the least space?
-
-### Learning Outcome
-
-Understanding UVM printer policies.
-
----
-
 # Exercise 9: Print Multiple Objects
 
 ## Problem Statement
