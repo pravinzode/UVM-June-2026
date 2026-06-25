@@ -2,7 +2,7 @@
 
 ## Objective
 
-These assignments are designed to help students understand:
+These assignments are designed to understand:
 
 - UVM Object Creation
 - Factory Registration using `uvm_object_utils`
