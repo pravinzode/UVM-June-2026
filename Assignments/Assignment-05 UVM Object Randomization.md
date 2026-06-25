@@ -305,25 +305,3 @@ o3.a = 12
 ```
 
 ---
-
-# Submission Guidelines
-
-- Use UVM factory registration (`uvm_object_utils`) for all classes.
-- Use `uvm_info()` for displaying outputs wherever possible.
-- Add comments explaining constraints.
-- Verify that all constraints are satisfied.
-- Submit source code and simulation output.
-
----
-
-# Learning Outcomes
-
-After completing these assignments, students will be able to:
-
-- Create UVM objects
-- Register classes with the UVM factory
-- Apply constrained randomization
-- Define relationships between random variables
-- Use UVM printing mechanisms
-- Model simple packet-like objects
-- Work with multiple UVM object instances
