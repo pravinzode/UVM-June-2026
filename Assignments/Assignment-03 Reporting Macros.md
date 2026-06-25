@@ -1,5 +1,5 @@
 
-# UVM Reporting Macros — Day-01 Lab Exercises
+# UVM Reporting Macros — Day-02 Lab Exercises
 
 ## Exercise 1 — Simple Info Message
 - Print `"Hello UVM"` using:
