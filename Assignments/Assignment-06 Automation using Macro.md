@@ -354,23 +354,3 @@ Understanding the role of field automation macros.
 
 ---
 
-# Challenge Exercise
-
-## Custom Printer Configuration
-
-Modify:
-
-```systemverilog
-uvm_default_table_printer.knobs.show_radix = 1;
-uvm_default_table_printer.knobs.show_root = 1;
-```
-
-### Tasks
-
-1. Print the object.
-2. Observe the effect of printer knobs.
-3. Document the changes in output.
-
-### Learning Outcome
-
-Understanding printer customization.
