@@ -1,5 +1,4 @@
-# UVM Object Randomization – Moderate Level Assignments
-
+# UVM Object Randomization 
 ## Objective
 
 These assignments are designed to understand:
