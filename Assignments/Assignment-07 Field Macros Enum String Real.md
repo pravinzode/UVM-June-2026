@@ -1,4 +1,4 @@
-# UVM Object Field Automation Assignments (Digital Design Applications)
+# UVM Object Field Automation Assignments
 
 ## Exercise 1: ALU Operation Packet
 Design a UVM object for an ALU.
